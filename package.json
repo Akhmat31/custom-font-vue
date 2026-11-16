@@ -1,0 +1,56 @@
+{
+  "name": "ext-ext-vue-font",
+  "author": "Bogdan Asyarev",
+  "version": "1.0.0",
+  "description": "Vue 3 plugin to load local and from external fonts provided by a URL",
+  "type": "module",
+  "main": "./dist/ext-vue-font.umd.cjs",
+  "module": "./dist/ext-vue-font.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/ext-vue-font.js",
+      "require": "./dist/ext-vue-font.umd.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.21.1",
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "@vue/test-utils": "^2.5.1",
+    "@vue/tsconfig": "^0.9.1",
+    "jsdom": "^31.0.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.8",
+    "vite-plugin-dts": "^5.1.2",
+    "vitest": "^5.1.0",
+    "vue": "^3.4.38",
+    "vue-tsc": "^3.3.14"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "font",
+    "font-face",
+    "plugin",
+    "csp",
+    "blob",
+    "loader"
+  ],
+  "license": "MIT"
+}
