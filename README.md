@@ -6,6 +6,10 @@
 
 ---
 
+<center>
+<img src="assets/Screenshot_2026-11-17_00-37-34.png" width=500></img>
+</center>
+
 > ## Quickstart
 
 ```shell
