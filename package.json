@@ -52,5 +52,8 @@
     "blob",
     "loader"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "custom-font-vue": "^0.0.0-stage"
+  }
 }
