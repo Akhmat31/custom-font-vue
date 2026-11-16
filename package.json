@@ -1,5 +1,5 @@
 {
-  "name": "ext-ext-vue-font",
+  "name": "custom-font-vue",
   "author": "Bogdan Asyarev",
   "version": "1.0.0",
   "description": "Vue 3 plugin to load local and from external fonts provided by a URL",
