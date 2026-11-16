@@ -3,4 +3,4 @@ pnpm-lock.yaml
 pnpm-workspace.yaml
 dks.md
 node_modules
-package.json
+package-lock.json
